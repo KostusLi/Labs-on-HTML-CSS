@@ -1,0 +1,55 @@
+.container2 .div2 form {
+  border: 6px groove black;
+  padding-top: 125px;
+  height: 373px;
+}
+
+.container2 .div2 {
+  width: 500px;
+}
+.container2 .div2 form {
+  text-align: end;
+  margin-top: 80px;
+  background-image: linear-gradient(to bottom, rgb(247, 170, 69), rgb(156, 91, 6));
+  margin-top: 0px;
+}
+.container2 .div2 form h1 {
+  text-align: center;
+}
+.container2 .div2 form table {
+  position: absolute;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.container2 .div2 form button {
+  font-family: "middleage";
+  margin-left: 70px;
+}
+.container2 .div2 .h2 {
+  border: 2px solid transparent;
+  background-color: rgb(156, 91, 6);
+  text-align: center;
+}
+.container2 .div2 .h2 h2 {
+  color: rgb(41, 4, 115);
+}
+.container2 .div2 .div3 .imgp {
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: justify;
+  align-items: center;
+  background-color: rgb(235, 146, 29);
+}
+.container2 .div2 .div3 .imgp p {
+  font-size: 15px;
+  display: inline;
+}
+.container2 .div2 .div3 .imgp p span {
+  font-size: 20px;
+  color: rgb(221, 6, 6);
+}
+.container2 .div2 .div3 .imgp img {
+  width: 180px;
+  height: 180px;
+}/*# sourceMappingURL=block2.css.map */

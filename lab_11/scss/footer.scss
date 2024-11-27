@@ -1,0 +1,11 @@
+.div4 {
+    border: 2px solid transparent;
+    margin: 0;
+    background-color: black;
+    color: white;
+    background-image: linear-gradient(to bottom, black 60%, white);
+    p{
+        position: relative;
+        left: 50px
+    }
+}

@@ -1,0 +1,60 @@
+@function fonts() {
+    @return 30px;
+}
+
+
+@if(fonts()<40px)
+{
+    h1{
+        font-size: 40px;
+    }
+}
+
+
+.container2{
+    display: flex;
+
+    .div1{
+        width: 1000px;
+
+.h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(156, 91, 6);
+    border: 2px solid transparent;
+}
+
+.p1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    p{
+        $text: 30px;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(235, 146, 29);
+        width: 400px;
+       span{
+        font-size: 20px;
+        color: rgb(221, 6, 6);
+       }
+    }
+}
+
+.img {
+    background-color: rgb(235, 146, 29);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    img {
+        display: inline;
+        margin-left:60px;
+        width: 400px;
+        height: 200px;
+    }
+}
+
+    }
+}

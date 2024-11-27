@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+}
+
+h3 {
+text-align: right;
+}
+
+.aside {
+    float: right;
+}
+
+.a1:link {
+    color: red;
+text-decoration: none;
+}
+
+.a2:visited {
+    color:  #8B0000;
+}
+
+.a3:hover {
+color: green;
+}
+
+.a4:active {
+    color: rgb(184, 134, 11);
+}
+
+.text {
+    text-align: justify;
+    text-indent: 60px;
+}
+
+.h2 {
+    margin-top: -60px;
+    margin-bottom: -10px;
+}

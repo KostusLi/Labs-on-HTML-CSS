@@ -1,0 +1,13 @@
+note {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: red;
+}
+
+first, second, third, four, five {
+    border: 2px solid black;
+    margin-right: 3px;
+    text-align: justify;
+    background-color: yellow;
+}

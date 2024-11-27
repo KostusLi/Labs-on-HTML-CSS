@@ -1,0 +1,44 @@
+h1 {
+  font-size: 40px;
+}
+
+.container2 {
+  display: flex;
+}
+.container2 .div1 {
+  width: 1000px;
+}
+.container2 .div1 .h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(156, 91, 6);
+  border: 2px solid transparent;
+}
+.container2 .div1 .p1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.container2 .div1 .p1 p {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(235, 146, 29);
+  width: 400px;
+}
+.container2 .div1 .p1 p span {
+  font-size: 20px;
+  color: rgb(221, 6, 6);
+}
+.container2 .div1 .img {
+  background-color: rgb(235, 146, 29);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container2 .div1 .img img {
+  display: inline;
+  margin-left: 60px;
+  width: 400px;
+  height: 200px;
+}/*# sourceMappingURL=block1.css.map */

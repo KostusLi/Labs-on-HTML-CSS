@@ -1,0 +1,6 @@
+note {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: green;
+}

@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+* {
+    transition-duration: 2s;
+}
+
+a{
+    text-decoration: none;
+}
+
+    .nav{
+        display: block;
+        color: blue;
+    }
+
+.nav > .first2 {
+    border: 2px solid black;
+}
+
+    .nav > .first2 {
+        display:none;
+    }
+
+    .nav:hover > .first2 {
+        display: block;
+    }
+}

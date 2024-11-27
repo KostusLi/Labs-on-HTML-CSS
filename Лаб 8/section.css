@@ -1,0 +1,53 @@
+* {
+    transition: all .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul.first>li>a {
+    display: block;
+    position: absolute;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0;
+    background-color: yellow;
+}
+
+nav ul.first>li {
+    position: relative;
+}
+
+nav ul.first:hover ul.second{
+    visibility: visible;
+    opacity: 1;
+}
+
+ul.second {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -40px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+ul.second>li>a {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    width: 100px;
+    background-color: rgb(265,100,70);
+}
+
+ul.second>li>a:hover{
+    opacity: .7;
+}

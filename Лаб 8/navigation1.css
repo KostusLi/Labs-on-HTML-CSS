@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fit1 {
+opacity: 0;
+float: left;
+}
+
+.menu {
+display: none;
+ opacity: 0;
+}
+
+.fit:hover .fit1 {
+    opacity: 1;
+}
+
+.fit:hover .menu {
+    display: block;
+    opacity: 1;
+}
+
+a  {
+    display: block;
+    width:100px;
+    height: 40px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.fit2 {
+    opacity: 0;
+    float: left;
+}
+
+.li1:hover .fit2 {
+    opacity: 1;
+}

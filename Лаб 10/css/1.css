@@ -1,0 +1,64 @@
+@import url(2.css);
+
+.first {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+video {
+    position: relative;
+    margin-top: 10px;
+}
+
+video:hover {
+    width: 400px;
+}
+
+p {
+text-align: justify;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+.grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: center ;
+    gap: 5px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 480px) {
+.grid {
+    color: red;
+}
+}
+
+@media (max-width: 1280px) {
+.grid {
+    grid-template-columns: repeat(1, 1fr); 
+    justify-content: center;
+}
+}

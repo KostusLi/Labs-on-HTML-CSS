@@ -1,0 +1,52 @@
+.div>div{
+    border: 2px solid black;
+    display: grid;
+    padding: 3px;
+}
+
+.table>div {
+    background-color: yellow;
+}
+
+.table:not(:nth-of-type(5)) {
+    background-color: rgb(245, 88, 88);
+}
+
+.table:nth-of-type(5){
+    border: transparent;
+}
+
+.div {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 1fr;
+}
+
+.table>div {
+    border: 2px solid black;
+    margin-top: 2px;
+}
+
+.div>div.text{
+    background-color: orange;
+}
+
+div:nth-of-type(4){
+    margin-left: 15px;
+}
+
+div:nth-of-type(2) {
+    margin-left:10px;
+}
+
+div:nth-of-type(3) {
+    margin-left:10px;
+}
+
+div:nth-of-type(5) {
+    margin-left:10px;
+}
+
+div:nth-of-type(6) {
+    margin-left:10px;
+}
+

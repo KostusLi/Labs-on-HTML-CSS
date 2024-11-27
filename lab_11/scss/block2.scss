@@ -1,0 +1,82 @@
+
+
+@mixin table {
+    position: absolute;
+    margin:auto;
+    margin-bottom: 70px;
+}
+
+
+@function fonts() {
+    @return 60px;
+}
+
+
+
+%shablons {
+    border: 6px groove black;
+    padding-top: 125px;
+    height: 373px;
+}
+
+.container2 {
+.div2 {
+    width: 500px;
+form {
+    text-align: end;
+    margin-top: 80px;
+    background-image: linear-gradient(to bottom,rgb(247, 170, 69), rgb(156, 91, 6)) ;
+    margin-top: 0px;
+    @extend %shablons;
+    h1 {
+        text-align: center;
+        
+@if(fonts()<40px)
+{
+    h1{
+        font-size: 40px;
+    }
+}
+    }
+    table{
+        @include table; 
+    }
+    button {
+        font-family: 'middleage';
+        margin-left: 70px;
+    }
+}
+
+.h2{
+    border: 2px solid transparent;
+    background-color:rgb(156, 91, 6);
+    text-align: center;
+  h2 {
+    color: rgb(41, 4, 115);
+  }
+}
+
+.div3{
+.imgp{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: justify;
+    align-items: center;
+    background-color: rgb(235, 146, 29);
+    p{
+        font-size: 15px;
+        display: inline;
+        span{
+            font-size: 20px;
+            color: rgb(221, 6, 6);
+        }
+    }
+    img {
+        width: 180px;
+        height: 180px;
+    }
+}
+}
+}
+}
