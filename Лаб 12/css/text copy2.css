@@ -1,0 +1,24 @@
+note {
+    display: block;
+    border-collapse: collapse;
+    margin: 10px;
+    }
+
+header, first{
+    display: table-row;
+}
+
+head {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background: rgb(203, 61, 61);
+    }
+    
+div {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+}
+        

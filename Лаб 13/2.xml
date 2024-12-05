@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<students>
+    <student>
+        <name>Иван Иванов</name>
+        <grade>5</grade>
+    </student>
+    <student>
+        <name>Мария Петрова</name>
+        <grade>8</grade>
+    </student>
+    <student>
+        <name>Сергей Сидоров</name>
+        <grade>4</grade>
+    </student>
+        <student>
+        <name>Кирилл Домич</name>
+        <grade>2</grade>
+    </student>
+        <student>
+        <name>Коля Вольников</name>
+        <grade>6</grade>
+    </student>
+        <student>
+        <name>Максим Броский</name>
+        <grade>1</grade>
+    </student>
+</students>
