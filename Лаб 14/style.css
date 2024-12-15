@@ -1,0 +1,28 @@
+body h1, body h2, body h3 {
+  font-family: "Monotype Corsiva";
+  color: #FF00FF;
+  text-align: center;
+}
+body h2, body h3 {
+  font-size: 20pt;
+}
+body p {
+  font-family: arial;
+  font-size: 16pt;
+}
+body table {
+  border-collapse: collapse;
+  width: 100%;
+}
+body tr, body td {
+  padding: 8px;
+  text-align: left;
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body table, body th, body td {
+  border: 1px solid black;
+}
+body caption {
+  font-family: Arial, Helvetica, sans-serif;
+}/*# sourceMappingURL=style.css.map */

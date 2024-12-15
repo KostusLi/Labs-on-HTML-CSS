@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="Windows1251"?>
 <?xml-stylesheet type="text/css" href="css/text copy2.css"?>
-<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="text-copy2.xsd"> 
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="text_copy.xsd"> 
 <note>
 <header>
     <head>Товар</head>

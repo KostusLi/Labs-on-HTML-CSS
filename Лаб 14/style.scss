@@ -1,0 +1,35 @@
+body{
+h1, h2, h3 {
+    font-family: 'Monotype Corsiva';
+    color: #FF00FF;
+    text-align: center;
+    }
+
+    h2, h3 {
+    font-size: 20pt;    
+    }
+
+    p {
+        font-family: arial;
+        font-size: 16pt;
+    }
+        
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+        
+        tr, td {
+        padding: 8px; 
+        text-align: left;
+        color: brown;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        table, th, td {
+        border: 1px solid black;
+        }
+        caption {
+        font-family: Arial, Helvetica, sans-serif;   
+        }
+    }
