@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    margin-left: 12px;
+}
+
+p{
+  display: none;
+  text-align: center;
+    width: 300px;
+}

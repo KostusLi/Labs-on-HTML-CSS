@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form name="main">
+        <fieldset>
+        <div>
+        <legend style="font-size:20px"><strong>Данные студента</strong></legend>
+        </div>
+
+        <div>
+            <label>Имя студента</label> 
+            <input id="name" type="text" required placeholder="Обязательно заполнить" size="30">
+        </div>
+        <div> 
+            <label>Отчество студента</label>
+            <input id="patronymic" type="text" required placeholder="Обязательно заполнить" size="30">
+        </div>   
+        <div>
+            <label>Фамилия студента</label>
+            <input id="surname" type="text" required placeholder="Обязательно заполнить" size="30">
+        </div>
+        <div>
+            <label>Адрес почты</label>
+            <input id="email" type="email" size="30">
+        </div>
+        <div>
+            <label>Контактный номер</label>
+            <input id="phone" type="text" size="30">
+        </div>
+        <div>
+            <label>Какую социальную сеть вы используете</label>
+            <input type="checkbox" id="vk"> VK 
+            <input type="checkbox" id="facebook"> Facebook
+            <input type="checkbox" id="instagram"> Instagram
+        </div>
+
+        <div>
+            <label for="faculty">Факультет:</label>
+            <select id="faculty">
+                <option value="">Выберите факультет</option>
+                <option value="ЛХФ">ЛХФ</option>
+                <option value="ФИТ">ФИТ</option>
+                <option value="ХТИТ">ХТИТ</option>
+                <option value="ИЭФ">ИЭФ</option>
+                <option value="ТОВ">ТОВ</option>
+                <option value="ЗФ">ЗФ</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="group">Группа:</label>
+            <select id="group">
+                <option value="">Выберите группу</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="course">Курс:</label>
+            <select id="course">
+                <option value="">Выберите курс</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="button" value="Отправить" onclick="submitForm()"> 
+        </div>
+        </fieldset>
+    </form>
+
+    <footer id="footer"></footer>
+
+    <script>
+        function submitForm() {
+            const name = document.getElementById("name").value;
+            const patronymic = document.getElementById("patronymic").value;
+            const surname = document.getElementById("surname").value;
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+
+            const vk = document.getElementById("vk").checked ? "VK" : "";
+            const facebook = document.getElementById("facebook").checked ? "Facebook" : "";
+            const instagram = document.getElementById("instagram").checked ? "Instagram" : "";
+            const socialNetworks = [vk, facebook, instagram].filter(Boolean).join(", ");
+
+            const faculty = document.getElementById("faculty").value;
+            const group = document.getElementById("group").value;
+            const course = document.getElementById("course").value;
+
+            const footer = document.getElementById("footer");
+            footer.innerHTML = `
+                <p>Имя: ${name}</p>
+                <p>Отчество: ${patronymic}</p>
+                <p>Фамилия: ${surname}</p>
+                <p>Почта: ${email}</p>
+                <p>Телефон: ${phone}</p>
+                <p>Социальные сети: ${socialNetworks}</p>
+                <p>Факультет: ${faculty}</p>
+                <p>Группа: ${group}</p>
+                <p>Курс: ${course}</p>
+            `;
+        }
+    </script>
+</body>
+</html>
+
